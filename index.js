@@ -11,7 +11,10 @@ module.exports = function(source) {
   }
   var transform = reactTools.transformWithDetails(source, {
     harmony: query.harmony,
-    es5: query.es5
+    es5: query.es5,
+    es6module: query.es6module,
+    nonStrictEs6module: query.nonStrictEs6module,
+    sourceMap: query.sourceMap
   });
 
   // all the query information were only meant for the jsx-compiler
