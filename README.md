@@ -1,4 +1,4 @@
-# JSXHint Loader for Webpack
+# Fork of JSXHint Loader for Webpack because the original is not actively maintained
 
 Use existing [jshint](https://github.com/webpack/jshint-loader/) and [jsx-loader](https://github.com/petehunt/jsx-loader) and configuration for preloader hinting.
 
